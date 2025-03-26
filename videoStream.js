@@ -45,5 +45,5 @@ async function callDetection(modelId) {
 // Beispielhafte Simulation: Aufrufe an beide Endpoints alle 3 Sekunden
 setInterval(() => {
     callDetection(1);
-    callDetection(2);
+    //callDetection(2);
 }, 3000);
